@@ -1,0 +1,26 @@
+.awesome-modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2050;
+}
+
+.awesome-modal-inner-wrapper {
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    width: 30%;
+    border: 0.5px solid #e8e8e8;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04);
+    height: 100px;
+}
+
+.awesome-modal-background {
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    background: rgba(0, 0, 0, 0.5);
+}

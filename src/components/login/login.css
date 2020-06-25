@@ -1,0 +1,56 @@
+.login.main {
+    background-image: url("https://images.unsplash.com/photo-1570971839591-9934cad91963?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.login.containerCenter {
+    height: 100vh;
+}
+
+.login.containerEnd {
+    width: 100vw;
+    padding: 75px;
+}
+
+.login.backgroundColorCard {
+    background: #0c0b0ba6 !important;
+}
+
+.login.labelInput {
+    color: whitesmoke;
+}
+
+.login.inputText {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid whitesmoke;
+    background: none !important;
+    border-radius: 0 !important;
+    color: whitesmoke;
+}
+
+.login.inputText:focus {
+    border-color: whitesmoke !important;
+    border-bottom: 1px solid whitesmoke !important;
+    box-shadow: 0 7px 4px -6px white;
+}
+
+.login.hideAlert{
+    display: none;
+}
+
+.login.hideInput{
+    display: none;
+}
+
+.login.my-top{
+    top: 300px;
+}

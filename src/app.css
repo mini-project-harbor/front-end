@@ -1,0 +1,14 @@
+body,html{
+    background-color: whitesmoke;
+}
+.awesome-button-sm{
+    width: 120px;
+}
+
+.awesome-button-md{
+    width: 150px;
+}
+
+.awesome-button-lg{
+    width: 175px;
+}
